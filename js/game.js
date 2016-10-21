@@ -183,6 +183,8 @@ app.game = {
 		// Clear everything
 		this.resetTiles();
 		app.orderStation.clearOrders();
+
+		this.score = 0;
 		
 		// Start a new game
 		this.coffeeSpawn = this.maxSpawn;
